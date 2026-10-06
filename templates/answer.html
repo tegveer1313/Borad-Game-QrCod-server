@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Correct Answer</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+
+            margin: 0;
+
+            min-height: 100vh;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            background: #111;
+
+            color: white;
+
+            font-family: Arial, sans-serif;
+
+        }
+
+        .container {
+
+            width: 90%;
+
+            max-width: 500px;
+
+            text-align: center;
+
+            padding: 40px 20px;
+
+        }
+
+        .card-id {
+
+            font-size: 18px;
+
+            color: #888;
+
+            margin-bottom: 50px;
+
+            letter-spacing: 2px;
+
+        }
+
+        .title {
+
+            font-size: 22px;
+
+            font-weight: bold;
+
+            letter-spacing: 3px;
+
+            margin-bottom: 30px;
+
+        }
+
+        .answer {
+
+            font-size: 120px;
+
+            font-weight: bold;
+
+            line-height: 1;
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <div class="card-id">
+
+            CARD {{ card_id }}
+
+        </div>
+
+
+        <div class="title">
+
+            CORRECT ANSWER
+
+        </div>
+
+
+        <div class="answer">
+
+            {{ answer }}
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
